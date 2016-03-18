@@ -14,7 +14,6 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "springnz" %% "util-lib" % "2.8.0",
   "org.scalaz" %% "scalaz-core" % "7.1.3",
   "com.typesafe" % "config" % "1.3.0",
   "com.orientechnologies" % "orientdb-client" % "2.1.5",
