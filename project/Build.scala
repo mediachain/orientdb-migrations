@@ -2,7 +2,7 @@ import sbt._
 
 object Builder extends Build {
 
-  lazy val root = Project("root", file("."))
+  lazy val root = Project("orientdb-migrations-root", file("."))
       .dependsOn(springnz_util)
 
   lazy val springnz_util =
