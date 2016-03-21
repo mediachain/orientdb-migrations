@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-core" % "7.1.3",
   "com.typesafe" % "config" % "1.3.0",
   "com.orientechnologies" % "orientdb-client" % "2.1.13",
-  "org.scalatest" %% "scalatest" % "2.2.5"
+  "org.scalatest" %% "scalatest" % "2.2.5" % "test"
 )
 
 testOptions in Test += Tests.Argument(TestFrameworks.ScalaTest, "-oD")
